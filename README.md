@@ -1,77 +1,65 @@
 # 🧙🏻‍♂️ Unsub Dwarf
 
-## 💌 Description
-**Unsub Dwarf** is a simple desktop assistant that helps you clean up your Gmail inbox by automatically unsubscribing from unwanted newsletters and moving promotional emails to trash.  
+## 🤔 Who are you taking about?
+<img src="https://github.com/user-attachments/assets/53726f02-43a3-4f52-bc64-9d591285ef60" align="right" width="128">
 
-## ✨ Features
+**Unsub Dwarf** is a tiny desktop wizard who helps you fight the eternal war against newsletter spam and dead-weight emails.  
 
-- ✅ Automatically detects `List-Unsubscribe` headers in emails
-- 🔍 Searches for unsubscribe links even in the **HTML body**
-- 🧹 Removes promotional, social, and update emails you've already read
-- 📬 Allows manual control over how many messages to process
-- 🗣️ Supports **multiple languages** (English, Russian, Czech)
+💫 One click — and your **Gmail** looks a little less like a dump.
 
-## 🛠️ Technologies Used
+## 🫧 Features
+
+- ✅ Sniffs out `List-Unsubscribe` headers automatically
+- 🔍 Hunts for unsubscribe links hidden in email bodies
+- 🧹 Cleans up old promotional, social, and update tabs
+- 🕹️ You set how deep the cleanup goes
+- 🌎 Multilingual interface `(ENG / RU / CZ)`
+
+## 🧰 Built With
+- **Python 3.10+** — main staff
+- **Gmail API** — access to your inbox (legally, promise)
+- **Tkinter** — smooth and simple interface
+
+## 🔐 Heads Up
+
+- Gmail **only**
+- Needs **internet connection**
+- Google might be a little suspicious of new apps (**OAuth stuff**)
+> 💬 If you see a warning during login, **don’t panic**.<br>  If you wanna be added as a **trusted tester** — just ping me at  [aleks.creatrix@gmail.com](mailto:aleks.creatrix@gmail.com). 
+
+## 🛠️ How to Set It Up
+
+### Requirements
 - Python 3.10+
-- Gmail API via `google-api-python-client`
-- `Tkinter` for the graphical interface
-## 👀 Screenshot
-
-_coming soon..._
-
-## 🎨 Customization
-
-The interface uses a warm pastel theme by default — but you can:
-- Change the color palette in `dwarf.py`
-- Add new keywords to filter out spam (`keywords.py`)
-- Add more languages in `interface_langs.py`
-
-## 🛠️ Setup & Usage
-
-### 🧪 Requirements
-
-- Python 3.10+
-- Gmail account with enabled API access
+- Gmail account + API credentials
 - `pip install -r requirements.txt`
+- (Optional) Coffee. Lots of coffee.
 
-You’ll also need to **set up a Google Cloud project** with Gmail API and download `credentials.json`.
-
-### 🚫 Limitations
-
-- The app currently works with **Gmail only**.
-- It needs internet access and valid API credentials.
-- Unsubscribing via email might not always be effective.
-- Google limits API usage for unverified apps.
-
-### 🔐 Google OAuth Setup
-
-Due to Google security policies, only **authorized test users** can log in unless the app is verified.
-
-> 💡 If you’re not a listed tester, you’ll see an error when trying to log in.
-
-To become a tester:
-1. Send your Gmail address to [aleks.creatrix@gmail.com](mailto:aleks.creatrix@gmail.com)
-2. Wait for adding you to the OAuth test user list.
-3. Restart the app and authorize.
-
-### 🧙🏻‍♂️ How to Run
+### 🦾 Quickstart
 
 1. Run the app:
 ```bash
 python dwarf.py
 ```
-2. Choose your interface language (top right corner).
-3. Enter how many emails you want to process (e.g. 50, 100...).
-4. Click **Start**.
-5. Sit back while the dwarf reads through your inbox:
+2. Enter how many emails you want to process (e.g. 50, 100...).
+3. Click **Start**.
+4. Sit back while the dwarf reads through your inbox:
    - If it finds an unsubscribe link → clicks it or sends an unsubscribe email.
    - If it sees a promotional email you've already read → moves it to Trash.
    - If it's spammy with no unsubscribe option → deletes it too.
    - If it looks fine → it gets skipped.
 
-6. Click **Stop** anytime to cancel the process.
+You **also can**:
+- Click **Stop** anytime to cancel the process.
+- Choose your interface language (top right corner).
+- Customization -> add new keywords to filter out spam (`keywords.py`)
+  
+## 👀 Screenshots
 
-## 👥 Contributors
-Developed by Aleksandra Kenig. Special thanks to everyone who provided feedback, bug reports, and support!
+_coming soon..._
 
-### 📩 Feel free to reach out with questions or suggestions!
+## 👤 Author
+Originally born out of pure frustration with morning inbox chaos ⁽⁽(੭ꐦ •̀Д•́ )੭*⁾⁾ <br>
+by Aleksandra Kenig (aka [yourpunk](https://github.com/yourpunk)). 
+
+💌 Wanna collab or throw some feedback? You know where to find me.
