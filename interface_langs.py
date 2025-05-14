@@ -19,6 +19,7 @@ interface_langs = {
         "probably_spam": "Email '{subject}' from {sender} looks like spam → deleting",
         "skipped": "Email skipped — doesn’t look like spam",
         "process_error": "Error while processing email:",
+        "cancel": "Stopped by user",
     },
     "ru": {
         "title": "Гном Отписок",
@@ -40,6 +41,8 @@ interface_langs = {
         "probably_spam": "Письмо '{subject}' от {sender} похоже на рекламу → удаляю",
         "skipped": "Письмо пропущено — не похоже на спам",
         "process_error": "Ошибка при обработке письма:",
+        "cancel": "Остановлено пользователем",
+
     },
     "cz": {
         "title": "Gnóm Odhlášek",
@@ -61,5 +64,7 @@ interface_langs = {
         "probably_spam": "E-mail '{subject}' od {sender} vypadá jako spam → mažu",
         "skipped": "E-mail přeskočen — nevypadá jako spam",
         "process_error": "Chyba při zpracování e-mailu:",
+        "cancel": "Zastaveno uživatelem",
+
     },
 }

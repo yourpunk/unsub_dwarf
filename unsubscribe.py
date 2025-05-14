@@ -2,6 +2,7 @@ from auth import get_gmail_service
 import shared
 from keywords import TRASH_KEYWORDS
 from interface_langs import interface_langs 
+from auth import get_gmail_service
 
 import base64
 import requests
@@ -107,6 +108,7 @@ def find_unsubscribe_in_body(msg):
 
 
 def get_messages(limit=100, log_output=None, lang_code="en"):
+    service = get_gmail_service()
     lang = interface_langs.get(lang_code, interface_langs['en'])
     log = print if log_output is None else lambda msg: log_output.insert('end', msg + '\n')
     log(lang["processing"].format(limit=limit))
