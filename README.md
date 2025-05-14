@@ -55,10 +55,15 @@ You **also can**:
 - Customization -> add new keywords to filter out spam (`keywords.py`)
   
 ## 👀 Screenshots
-![image](https://github.com/user-attachments/assets/b0b7da4f-8389-4e0a-a49a-4275470a5ee3)
-![image (3)](https://github.com/user-attachments/assets/15ef1350-c418-4705-94d9-b4755674feb8)
-![image (2)](https://github.com/user-attachments/assets/c10f7fe2-cdee-472f-80f3-7680a6e1d40a)
-![image (4)](https://github.com/user-attachments/assets/074965db-8373-49f4-aa95-5769c3e2a548)
+
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/b0b7da4f-8389-4e0a-a49a-4275470a5ee3" width="300"/>
+  <img src="https://github.com/user-attachments/assets/c10f7fe2-cdee-472f-80f3-7680a6e1d40a" width="300"/>
+</p>
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/15ef1350-c418-4705-94d9-b4755674feb8" width="300"/>
+  <img src="https://github.com/user-attachments/assets/074965db-8373-49f4-aa95-5769c3e2a548" width="300"/>
+</p>
 
 ## 👤 Author
 Originally born out of pure frustration with morning inbox chaos ⁽⁽(੭ꐦ •̀Д•́ )੭*⁾⁾ <br>
