@@ -1,0 +1,16 @@
+Copyright (c) 2024 Aleksandra Kenig (yourpunk)
+
+This project is distributed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0), with the following additional clause:
+
+This project and its contents may NOT be used, in part or in full, for academic submissions, homework, or course projects.
+
+You may:
+- Use, display, and share the work for non-commercial, personal, and educational observation purposes.
+- Showcase the project with proper credit.
+
+You may NOT:
+- Sell, license, or commercialize the content or derivatives
+- Submit it or parts of it as academic work
+- Remove or modify author attribution
+
+For licensing questions or exceptions, contact aleks.creatrix@gmail.com
