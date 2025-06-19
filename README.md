@@ -65,6 +65,25 @@ You **also can**:
   <img src="https://github.com/user-attachments/assets/074965db-8373-49f4-aa95-5769c3e2a548" width="300"/>
 </p>
 
+## 📜 License
+
+This project is licensed under a custom license based on Creative Commons.
+
+You are free to:
+- Use, share, and showcase the game for **non-commercial** purposes
+- Study and enjoy the code and assets
+- Mention or reference it in portfolios or online
+
+Under the following conditions:
+- **You must give appropriate credit** to the author: *Aleksandra Kenig (yourpunk)*
+- **You may NOT use this project for any commercial purpose**
+- **You may NOT submit this project (or derivatives) as part of any school or university assignment**
+- You may NOT remove or obscure the author’s name
+
+For other use cases (modding, remixes, etc.) — please [contact me](mailto:aleks.creatrix@gmail.com).
+
+🛠️ License code: CC BY-NC-ND 4.0 + Academic Use Restriction
+
 ## 👤 Author
 Originally born out of pure frustration with morning inbox chaos ⁽⁽(੭ꐦ •̀Д•́ )੭*⁾⁾ <br>
 by Aleksandra Kenig (aka [yourpunk](https://github.com/yourpunk)). 
